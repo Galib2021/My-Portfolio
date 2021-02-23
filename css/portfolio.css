@@ -1,0 +1,113 @@
+body{
+    font-family: 'Cookie', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+         /*      HEADER LOGO MENU SECTION CSS       */
+.navbar {
+	background: #ffffff;
+	box-shadow: 0px -3px 11px 0px black;
+}
+.navbar-brand {
+	width: 218px;
+}
+.navbar-brand img {
+	max-width: 100%;
+}
+ul.navbar-my-menu li {
+	padding-left: 17px;
+}
+ul.navbar-my-menu li a {
+	color: #3e3c3c !important;
+	font-weight: 900;
+	font-size: 18px;
+}
+         /*         CARD SECTION CSS         */
+#portfolioSection {
+	margin-top: 40px;
+}
+.my-coustom-nav-pills li {
+	width: 137px;
+	text-align: center;
+	border: 1px solid #e83a3b;
+}
+.nav-item {
+	margin: auto;
+}
+.main-card{
+	overflow: hidden;
+	height: 300px;
+	position: relative;
+	border-radius: 10px;
+}
+.myfolio .my-card {
+	height: 300px;
+	overflow: hidden;
+	border: 4px solid #e83a3b;
+	box-shadow: 0 0 0px 4px #0000ff6e;
+	position: absolute;
+	position: relative;
+}
+.myfolio .my-card img{
+	max-width: 100%;
+}
+.main-card:hover .card-content{
+	bottom: 0px;
+}
+.card-content {
+	position: absolute;
+	bottom: -327px;
+	left: 0;
+	padding: 20px;
+	background: #00c3ffbf;
+	color: #020202;
+	z-index: 1;
+	text-align: center;
+	padding-top: 12px;
+	transition: .5s;
+	width: 100%;
+}
+.card-content h5 {
+	font-weight: 700;
+	color: #e83a3b;
+	text-shadow: 2px 2px 0px #fff;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	padding-top: 12px;
+}
+.card-content p {
+	font-weight: 600;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+               /*        FOOOTER HEADER SECTION CSS       */
+#footerHeader {
+    background:linear-gradient(rgba(0, 128, 0, 0.507),rgba(0, 128, 0, 0.507)), url(../img/web_development-TechShohor.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+@media(max-width:768px){
+    #footerHeader{
+        padding-bottom: 50px;
+        padding-top: 80px;
+    }
+}
+#footerHeader span {
+	font-size: 36px;
+	color: #fff;
+	width: 80px;
+	height: 80px;
+	display: block;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80px;
+}
+#footerHeader a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 6px;
+}
